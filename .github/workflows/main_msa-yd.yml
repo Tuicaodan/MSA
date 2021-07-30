@@ -35,5 +35,5 @@ jobs:
         app-name: msa-yd
         slot-name: Production
         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_96D6D13233434E96A63E0C77C0ACE950 }}
-        package: .
+        package: build
 
